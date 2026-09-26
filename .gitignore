@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Secrets and credentials
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+.env.*
+
+# PostgreSQL local data
+pgdata/
+postgres-data/
+*.sql.gz
+
+# Logs
+*.log
+logs/
+
+# Results generated temporarily
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# VMware
+*.lck
+*.vmem
+*.vmss
+*.vmsn
